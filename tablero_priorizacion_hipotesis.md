@@ -121,7 +121,7 @@
 
 | Campo | Valor |
 |---|---|
-| Supuesto central ||Si implementamos mecanismos de seguimiento y recordatorios sobre las prácticas establecidas en la normativa para la disposición de residuos, entonces los residentes mantendrán de manera constante dichas prácticas.|
+| Supuesto central |Si implementamos mecanismos de seguimiento y recordatorios sobre las prácticas establecidas en la normativa para la disposición de residuos, entonces los residentes mantendrán de manera constante dichas prácticas.|
 | ¿QUÉ HAGO? (Acción) | Realizar seguimiento periódico a las prácticas de disposición de residuos de los residentes. |
 | ¿CÓMO LO HAGO? (Método) | Mediante observaciones programadas y registro de los incumplimientos identificados. |
 | ¿PARA QUÉ LO HAGO? (Propósito) | Para identificar fallas recurrentes y promover el cumplimiento constante de la normativa. |
