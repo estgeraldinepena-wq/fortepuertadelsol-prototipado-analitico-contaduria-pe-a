@@ -75,7 +75,7 @@
 
 | Campo | Valor |
 |---|---|
-| Si implementamos una estrategia de información y orientación sobre la clasificación y aprovechamiento de los residuos, entonces los residentes identificarán correctamente cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. |  |
+| Supuesto central | Si implementamos una estrategia de información y orientación sobre la clasificación y aprovechamiento de los residuos, entonces los residentes identificarán correctamente cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. |  |
 | ¿QUÉ HAGO? (Acción) | Implementar una campaña de información sobre la clasificación y aprovechamiento de los residuos. |
 | ¿CÓMO LO HAGO? (Método) | Difundir material educativo mediante carteles, piezas digitales y mensajes informativos en las zonas comunes y canales de comunicación del conjunto. |
 | ¿PARA QUÉ LO HAGO? (Propósito) | Lograr que los residentes reconozcan cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. |
@@ -121,7 +121,7 @@
 
 | Campo | Valor |
 |---|---|
-| Si implementamos una estrategia de información y orientación sobre la clasificación y aprovechamiento de los residuos, entonces los residentes identificarán correctamente cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. | Algunos residentes no mantienen de manera constante las prácticas establecidas en la normativa  para la correcta disposición de los residuos. |
+| Supuesto central || Algunos residentes no mantienen de manera constante las prácticas establecidas en la normativa  para la correcta disposición de los residuos. |
 | ¿QUÉ HAGO? (Acción) | Realizar seguimiento periódico a las prácticas de disposición de residuos de los residentes. |
 | ¿CÓMO LO HAGO? (Método) | Mediante observaciones programadas y registro de los incumplimientos identificados. |
 | ¿PARA QUÉ LO HAGO? (Propósito) | Para identificar fallas recurrentes y promover el cumplimiento constante de la normativa. |
