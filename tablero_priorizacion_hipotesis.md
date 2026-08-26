@@ -98,7 +98,7 @@
 
 | Campo | Valor |
 |---|---|
-| Si implementamos una estrategia de información y orientación sobre la clasificación y aprovechamiento de los residuos, entonces los residentes identificarán correctamente cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. | Si adecuamos los espacios destinados a la disposición de residuos para facilitar su separación y organización, entonces los residuos se mantendrán separados y organizados hasta el momento de su recolección. |
+| Supuesto central | Si adecuamos los espacios destinados a la disposición de residuos para facilitar su separación y organización, entonces los residuos se mantendrán separados y organizados hasta el momento de su recolección. |
 | ¿QUÉ HAGO? (Acción) | Organizar los puntos de disposición de residuos según el tipo de residuo. |
 | ¿CÓMO LO HAGO? (Método) | Distribuir los recipientes en espacios definidos, separados entre sí y con señalización visible para cada categoría de residuo. |
 | ¿PARA QUÉ LO HAGO? (Propósito) | Evitar la mezcla de residuos y mantenerlos organizados hasta su recolección. |
