@@ -20,7 +20,7 @@
 | Riesgo si falsa | Los residentes continuarán presentando dificultades para clasificar y aprovechar correctamente los residuos, sin generar un cambio real y sostenible en su manejo dentro del conjunto. |
 | Acción si confirma | Replicar la estrategia de información a todos los residentes del conjunto. |
 | Acción si refuta | Realizar una encuesta corta para identificar qué residuos generan mayor confusión. |
-| Experimento analítico mínimo (query + visual 1 línea) |  |
+| Experimento analítico mínimo (query + visual 1 línea) | `=COUNTIFS(Respuestas!IdentificacionCorrecta,"Sí")/COUNTA(Respuestas!resident_id)*100` — Visual: gráfico de barras comparando el % de identificación correcta entre residentes expuestos y no expuestos a la estrategia de información. |
 | Estado (V/A/R) |  |
 
 ## Hipótesis 2
@@ -43,7 +43,7 @@
 | Riesgo si falsa | Los residentes podrían continuar enfrentando dificultades para separar correctamente los residuos, generando desorden y mezcla de residuos en los puntos de disposición |
 | Acción si confirma | Implementar y mantener la adecuación de los puntos de disposición en el conjunto. |
 | Acción si refuta | Revisar otras causas que estén generando la mezcla y desorganización de los residuos. |
-| Experimento analítico mínimo (query + visual 1 línea) |  |
+| Experimento analítico mínimo (query + visual 1 línea) | `=COUNTIFS(Observaciones!Separacion,"Sí",Observaciones!Organizacion,"Sí")/COUNTA(Observaciones!id_punto_disposicion)*100` — Visual: gráfico de barras comparando el % de residuos correctamente separados y organizados antes vs. después de la adecuación de los espacios. |
 | Estado (V/A/R) |  |
 
 ## Hipótesis 3
@@ -66,7 +66,7 @@
 | Riesgo si falsa | Los residentes podrían continuar incumpliendo las prácticas de disposición, aun después de recibir seguimiento y recordatorios. |
 | Acción si confirma | Mantener y fortalecer los mecanismos de seguimiento y recordatorios. |
 | Acción si refuta | Identificar otras causas del incumplimiento y ajustar la estrategia de intervención. |
-| Experimento analítico mínimo (query + visual 1 línea) |  |
+| Experimento analítico mínimo (query + visual 1 línea) | `=COUNTIF(Seguimiento!Cumplimiento,"Cumple")/COUNTA(Seguimiento!id_residente)*100` — Visual: gráfico de líneas con el % de cumplimiento mes a mes durante las rondas de seguimiento. |
 | Estado (V/A/R) |  |
 
 # Ficha de Indicador
@@ -75,7 +75,7 @@
 
 | Campo | Valor |
 |---|---|
-| Supuesto central | Si implementamos una estrategia de información y orientación sobre la clasificación y aprovechamiento de los residuos, entonces los residentes identificarán correctamente cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. |  |
+| Supuesto central | Si implementamos una estrategia de información y orientación sobre la clasificación y aprovechamiento de los residuos, entonces los residentes identificarán correctamente cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. |
 | ¿QUÉ HAGO? (Acción) | Implementar una campaña de información sobre la clasificación y aprovechamiento de los residuos. |
 | ¿CÓMO LO HAGO? (Método) | Difundir material educativo mediante carteles, piezas digitales y mensajes informativos en las zonas comunes y canales de comunicación del conjunto. |
 | ¿PARA QUÉ LO HAGO? (Propósito) | Lograr que los residentes reconozcan cómo clasificar y aprovechar los diferentes tipos de residuos que generan en sus hogares. |
@@ -121,7 +121,7 @@
 
 | Campo | Valor |
 |---|---|
-| Supuesto central |Si implementamos mecanismos de seguimiento y recordatorios sobre las prácticas establecidas en la normativa para la disposición de residuos, entonces los residentes mantendrán de manera constante dichas prácticas.|
+| Supuesto central | Si implementamos mecanismos de seguimiento y recordatorios sobre las prácticas establecidas en la normativa para la disposición de residuos, entonces los residentes mantendrán de manera constante dichas prácticas. |
 | ¿QUÉ HAGO? (Acción) | Realizar seguimiento periódico a las prácticas de disposición de residuos de los residentes. |
 | ¿CÓMO LO HAGO? (Método) | Mediante observaciones programadas y registro de los incumplimientos identificados. |
 | ¿PARA QUÉ LO HAGO? (Propósito) | Para identificar fallas recurrentes y promover el cumplimiento constante de la normativa. |
